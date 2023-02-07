@@ -1,0 +1,96 @@
+body{
+margin: 15px;
+background-color: cornsilk;
+
+}
+header{
+    background-color:hotpink;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color:goldenrod;
+    padding: 5px;
+    transition: all 0.5s;
+    scroll-behavior: smooth;
+}
+.menu a{
+margin-left: 30px;
+font-size: 20px;
+color: cornsilk;
+}
+.photos-menu{
+    color: beige;
+    margin-right: 10%;
+    font-size: 25px;
+}
+.pic-1{
+    width: 300px;
+    height: 300px;
+    margin: 15px;
+}
+.main-content{
+    display: flex;
+    align-items: center;
+    font-size: 150%;
+    width: ;
+}
+.intro{
+    margin-left: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    color: blue;
+    border: 1px solid brown;
+}
+.mid{
+    height:30px;
+    font-size: 20px;
+    color: brown;
+    background-color:greenyellow;
+    margin:20px;
+    border-radius: 20px;
+    text-align:center;
+}
+footer{
+    margin-left: 20px;
+    font-size: 18px;
+}
+#about{
+    background-color: rgb(177, 176, 165);
+    padding: 20px;
+    margin-left: 50px;
+    border-radius: 20px;
+    width: 85%;
+    font-size: 25px;
+    background-color: rgb(248, 243, 187);
+}
+#edu{
+    width: 90%;
+}
+table{
+    width: 600px;
+    height: 300px;
+    padding: 5px;
+    font-size: 22px;
+    border-collapse: collapse;
+    text-align: center;  
+    }
+ul{
+    list-style-type:square;
+    font-size: 20px;
+}
+.photo img{
+    width:350px;
+    height: 460px;
+    margin:10px;
+}
